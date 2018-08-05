@@ -1,6 +1,6 @@
 function extractLinks(args){
     let regex = /www.[a-zA-z -]+.[a-z]+/g
-
+    console.log(args.split(' '));
     console.log(args.join(' ').match(regex));
 
     //let result = args.split(' ').match(regex);
